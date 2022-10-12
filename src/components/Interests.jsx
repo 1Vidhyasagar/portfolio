@@ -6,24 +6,37 @@ const Interests = () => {
       name="Interests"
       className="w-full h-screen bg-[url('./downloads/bg.jpg')] text-white"
       >
-        <div className="max-w-screen-lg p-4 mx-auto pt-5 flex flex-col justify-center w-full h-full">
-            <div className="pb-8">
-                <p className="text-4xl font-bold">Interests</p>
+        <div className="max-w-screen-lg p-4 mx-auto pt-10 pl-10 flex flex-col justify-center w-full h-full">
+            <div className="pb-5">
+                <p className="text-3xl font-bold">Achievements</p>
             </div>
         <div>
             <ul className="list-disc p-auto">
-                <li>Travelling</li>
+                <li>Guvi JavaScript  <a href="https://www.guvi.in/verify-certificate?id=3Yl42qi27wc6160d6A&course=javascript_en" target="_blank" rel="noreferrer" className="text-decoration-line: underline" >Certificate link</a>
+             </li>
+               
+            </ul> 
+        </div>   
+        <div className="pt-10 pb-4 flex flex-row">
+                <p className="text-3xl font-bold">Interests</p>
+            </div>
+        <div>
+            <ul className="list-disc p-auto ">
+                <li>Traveling</li>
                 <li>learning new languages</li>
                 <li>Art</li>
-
-
             </ul>
+        </div> 
+
         </div>
-           
-            
-        </div>
+
+        
 
     </div>
+
+    
+
+    
   )
 }
 

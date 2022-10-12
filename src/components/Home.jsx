@@ -26,7 +26,7 @@ const Home = () => {
             duration={500}
             className="group text-white w-fit px-3 py-1 my-2 flex items-center rounded-md bg-gradient-to-r from-teal-400 cursor-context-menu "
             >
-                Portfolio
+                Projects
                 <span className="group-hover:rotate-90 duration-1000 " >
                 <MdOutlineKeyboardArrowRight size={25}
                   className="ml-2"
