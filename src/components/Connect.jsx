@@ -41,7 +41,7 @@ const Connect = () => {
     <BsFillPersonLinesFill size={25}/> Resume
     </>
         ),
-        href: 'https://drive.google.com/drive/folders/12R3FllvDU39qsHhwnDne6E3ozDeJKEMm',
+        href: '/vidhyasagarSD.pdf',
         style:'round-br-md',
         download:true,
     }
