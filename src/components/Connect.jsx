@@ -10,7 +10,7 @@ const Connect = () => {
         id:1,
         child:(
     <>
-    <FaLinkedin size={25}/> LinkedIn
+    <FaLinkedin size={25}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn
     </>
         ),
         href: 'https://www.linkedin.com/in/vidhyasagar-myana-530a08236/',
@@ -41,7 +41,7 @@ const Connect = () => {
     <BsFillPersonLinesFill size={25}/> Resume
     </>
         ),
-        href: '/vidhyasagarSD.pdf',
+        href: 'https://drive.google.com/drive/folders/12R3FllvDU39qsHhwnDne6E3ozDeJKEMm',
         style:'round-br-md',
         download:true,
     }
@@ -52,7 +52,7 @@ const Connect = () => {
         <ul>
         {links.map(({id, child, href, style, download})=>(
             // eslint-disable-next-line no-useless-concat
-            <li key={id} className={"flex justify-between items-center w-18 h-12 px-4 mr-[-100px] hover:mr-[-10px] hover:rounded-md duration-500 bg-gray-700" + "  "+ style}>
+            <li key={id} className={"flex justify-between items-center w-18 h-12 px-4 mr-[-100px] hover:mr-[-10px] hover:rounded-md duration-500 " + " "+ style} >
               <a 
               href={href}
               className="flex justify-between items-center w-full text-white"
