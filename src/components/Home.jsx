@@ -12,7 +12,7 @@ const Home = () => {
        <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4  md:flex-row">
            <div className="flex flex-col justify-center h-full">
             <h3 className=" text-4xl sm:text-2xl font-bold text-white">
-                I am a Full Stack Developer
+                I am a full Stack Developer
             </h3>
             <p className="text-gray-500 py-4 max-w-md">
                 Enthusiastic and adaptive in nature to work with MERN technology for developing web applications.

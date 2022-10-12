@@ -48,11 +48,11 @@ const Connect = () => {
   ]
 
   return (
-    <div className=" md:flex-col top-[35%] right-0 fixed">
+    <div className=" md:flex-col top-[35%] right-0 px-auto fixed">
         <ul>
         {links.map(({id, child, href, style, download})=>(
             // eslint-disable-next-line no-useless-concat
-            <li key={id} className={"flex justify-between items-center w-35 h-12 px-5 mr-[-100px] hover:mr-[-10px] hover:rounded-md duration-500 bg-gray-700" + "  "+ style}>
+            <li key={id} className={"flex justify-between items-center w-18 h-12 px-4 mr-[-100px] hover:mr-[-10px] hover:rounded-md duration-500 bg-gray-700" + "  "+ style}>
               <a 
               href={href}
               className="flex justify-between items-center w-full text-white"
