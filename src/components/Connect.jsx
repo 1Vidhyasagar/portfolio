@@ -1,7 +1,6 @@
 import React from 'react'
 import {FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 const Connect = () => {
 
@@ -10,7 +9,7 @@ const Connect = () => {
         id:1,
         child:(
     <>
-    <FaLinkedin size={25}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn
+    <FaLinkedin size={45}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn
     </>
         ),
         href: 'https://www.linkedin.com/in/vidhyasagar-myana-530a08236/',
@@ -20,7 +19,7 @@ const Connect = () => {
         id:2,
         child:(
     <>
-    <FaGithub size={25}/> GitHub
+    <FaGithub size={45}/> GitHub
     </>
         ),
         href: 'https://github.com/1Vidhyasagar',
@@ -29,21 +28,10 @@ const Connect = () => {
         id:3,
         child:(
     <>
-    <HiOutlineMail size={25}/>Mail
+    <HiOutlineMail size={45}/>Mail
     </>
         ),
         href: 'mailto:vidhyasagarmyana9598@gmail.com',
-    },
-    {
-        id:4,
-        child:(
-    <>
-    <BsFillPersonLinesFill size={25}/> Resume
-    </>
-        ),
-        href: '/vidhyasagarSD.pdf',
-        style:'round-br-md',
-        download:true,
     }
   ]
 
@@ -52,7 +40,7 @@ const Connect = () => {
         <ul>
         {links.map(({id, child, href, style, download})=>(
             // eslint-disable-next-line no-useless-concat
-            <li key={id} className={"flex justify-between items-center w-18 h-12 px-4 mr-[-100px] hover:mr-[-10px] hover:rounded-md duration-500 " + " "+ style} >
+            <li key={id} className={"flex justify-between items-center w-18 h-16 px-4 mr-[-100px] hover:mr-[-10px] hover:rounded-md duration-500 " + " "+ style} >
               <a 
               href={href}
               className="flex justify-between items-center w-full text-white"

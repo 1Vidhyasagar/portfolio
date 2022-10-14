@@ -6,7 +6,7 @@ const Interests = () => {
       name="Interests"
       className="w-full h-screen bg-[url('./downloads/bg.jpg')] text-white"
       >
-        <div className="max-w-screen-lg p-4 mx-auto pt-10 pl-10 flex flex-col justify-center w-full h-full">
+        <div className="max-w-screen-lg p-4 mx-auto pt-10  flex flex-col justify-center w-full h-full">
             <div className="pb-5">
                 <p className="text-3xl font-bold">Achievements</p>
             </div>
