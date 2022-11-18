@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="">
           <p className="text-4xl text-white font-bold mt-36">Contact</p>
-          <a className="text-white" href="tel:+9822074397">Call me at  &nbsp;<span>&#9990;</span>
+          <a className="text-white" href="tel:+919822074397">Call me at  &nbsp;<span>&#9990;</span>
 
           &nbsp;+91 9822074397</a> 
 
