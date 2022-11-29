@@ -9,7 +9,7 @@ const Contact = () => {
           <a className="text-white" href="tel:+919822074397">Call me at  &nbsp;<span>&#9990;</span>
 
           &nbsp;+91 9822074397</a> 
-
+ 
             
 
 

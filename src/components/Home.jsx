@@ -19,7 +19,7 @@ const Home = () => {
             </p>
 
             <div>
-            <a href="https://drive.google.com/drive/folders/12R3FllvDU39qsHhwnDne6E3ozDeJKEMm"
+            <a href="https://drive.google.com/file/d/1idfgDAxLorTp0Bx9emr6wuA4YWAKOf0G/view?usp=sharing"
             target="_blank" rel="noreferrer" 
             >
             <button
