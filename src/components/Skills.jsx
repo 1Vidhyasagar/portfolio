@@ -74,7 +74,7 @@ const tech=[
     >
         <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white pt-20">
             <div>
-                <p className="text-4xl  font-bold inline">Skills
+                <p className="text-2xl  font-bold inline">Skills
                 </p>
                 <p className="py-10 pb-3 pt-2	">These are my skills I am focusing on</p>
             </div>

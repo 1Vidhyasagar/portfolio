@@ -8,7 +8,7 @@ const Interests = () => {
       >
         <div className="max-w-screen-lg p-4 mx-auto pt-10  flex flex-col justify-center w-full h-full">
             <div className="pb-5">
-                <p className="text-3xl font-bold">Achievements</p>
+                <p className="text-2xl font-bold">Achievements</p>
             </div>
         <div>
             <ul className="list-disc p-auto">
@@ -18,7 +18,7 @@ const Interests = () => {
             </ul> 
         </div>   
         <div className="pt-10 pb-4 flex flex-row">
-                <p className="text-3xl font-bold">Interests</p>
+                <p className="text-2xl font-bold">Interests</p>
             </div>
         <div>
             <ul className="list-disc p-auto ">

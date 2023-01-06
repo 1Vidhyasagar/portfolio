@@ -5,14 +5,10 @@ const Contact = () => {
     <div name='Contact' className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-10 text-whie">
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="">
-          <p className="text-4xl text-white font-bold mt-36">Contact</p>
+          <p className="text-2xl text-white font-bold mt-36">Contact</p>
           <a className="text-white" href="tel:+919822074397">Call me at  &nbsp;<span>&#9990;</span>
 
           &nbsp;+91 9822074397</a> 
- 
-            
-
-
           <p className=" text-white"> Kindly fill below and contact me </p>
         </div>
         <div className="flex justify-center items-center">
