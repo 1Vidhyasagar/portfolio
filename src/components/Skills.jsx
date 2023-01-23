@@ -5,16 +5,16 @@ import javascript from"../downloads/javascript.png"
 import react from"../downloads/react.png"
 import node from"../downloads/node.png"
 import mongodb from"../downloads/mongodb.png"
-import tailwind from"../downloads/tailwind.png"
+import express from"../downloads/express.png"
 import mysql from"../downloads/mysql.png"
 import github from"../downloads/github.png"
 
-const Skills = () => {
+const Skills = () => { 
 
 const tech=[
     {
         id:1,
-        src:html,
+        src:html, 
         title:'HTML',
         style:'shadow-orange-600'
     },
@@ -33,13 +33,13 @@ const tech=[
     {
         id:4,
         src:react,
-        title:'React',
+        title:'React.js',
         style:'shadow-green-300'
     },
     {
         id:5,
         src:node,
-        title:'Node',
+        title:'Node.js',
         style:'shadow-green-400'
     },
     {
@@ -56,14 +56,14 @@ const tech=[
     },
     {
         id:8,
-        src:tailwind,
-        title:'Tailwind',
+        src:express,
+        title:'Express.js',
         style:'shadow-sky-400'
     },
     {
         id:9,
         src:github,
-        title:'GitHUb',
+        title:'GitHub',
         style:'shadow-gray-100'
     },
 ]
