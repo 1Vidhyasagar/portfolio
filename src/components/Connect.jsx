@@ -40,7 +40,7 @@ const Connect = () => {
         <ul>
         {links.map(({id, child, href, style, download})=>(
             // eslint-disable-next-line no-useless-concat
-            <li key={id} className={"flex justify-between items-center w-18 h-16 px-4 mr-[-100px] hover:mr-[-10px] hover:rounded-md duration-500 " + " "+ style} >
+            <li key={id} className={"flex justify-between items-center w-18 h-16 px-4 py-2 mr-[-100px] hover:mr-[-10px] hover:rounded-md duration-500" + " "+ style} >
               <a 
               href={href}
               className="flex justify-between items-center w-full text-white"

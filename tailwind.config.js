@@ -2,16 +2,20 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
-  ],  theme: {
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
+  ],
+  theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('./downloads/bg.jpg')",
-        
-      }
+        "hero-pattern": "url('./downloads/bg.jpg')",
+      },
     },
-    fontFamily:{
-      sign:["Great Vibes"]
-    }
+    fontFamily: {
+      sign: ["Great Vibes"],
+    },
   },
-  plugins: [],
-}
+  plugins: [
+    require('tw-elements/dist/plugin')
+  ],
+};
