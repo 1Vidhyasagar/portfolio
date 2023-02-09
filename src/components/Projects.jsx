@@ -55,7 +55,7 @@ const Projects = () => {
         >
           {projects.map(({ id, title, abc, src, href1, href2 }) => (
             <div key={id} className="shadow-md shadow-gray-500 rounded-lg">
-              <p class="inline-block py-1 bg-black text-white font-medium text-xs leading-tight uppercase rounded shadow-md text-center w-full ">
+              <p class="py-1 bg-black text-white font-medium text-xs  uppercase  text-center w-full ">
                 Project: {title}
               </p>
               <div>
