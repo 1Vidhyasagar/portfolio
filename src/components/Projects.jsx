@@ -109,7 +109,7 @@ const Projects = () => {
           ))}
         </div>
 
-        <div className="mt-6">
+        <div className="mt-8">
           <p>Currently I am working on following projects</p>
           <ul className="list-disc text-sm ">
             <li>Movie ticket booking app/site</li>
