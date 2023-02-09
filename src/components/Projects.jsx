@@ -55,14 +55,14 @@ const Projects = () => {
         >
           {projects.map(({ id, title, abc, src, href1, href2 }) => (
             <div key={id} className="shadow-md shadow-gray-500 rounded-lg">
-              <p className="py-1 bg-black text-white text-sm  text-center w-full ">
+              {/* <p className="py-1 bg-black text-white text-sm  text-center w-full ">
                 Project : {title}
               </p>
               <div>
                 <p className=" text-center  text-xs bg-gray max-w-sm w-full text-gray-400">
                   {abc}
                 </p>
-              </div>
+              </div> */}
               <img src={src} alt="" className="rounded-md duration-200  px-1" />
 
               <div
