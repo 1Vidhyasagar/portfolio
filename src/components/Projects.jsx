@@ -69,12 +69,6 @@ const Projects = () => {
                 alt=""
                 className="rounded-md duration-200 hover:scale-105 px-1"
               />
-              <div className="text-1xl flex items-center justify-center">
-                <p>
-                  Project title <br />
-                  description
-                </p>
-              </div>
               <div
                 className="flex items-center justify-center
                  bg-black"
