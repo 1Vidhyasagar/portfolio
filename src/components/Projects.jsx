@@ -42,17 +42,14 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="text-center sm:text-left bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full pt-28">
         <div>
           <p className="text-2xl font-bold pt-5">Projects</p>
         </div>
 
-        <div
-          className=" grid sm:grid-cols-2 md:grid-cols-4 gap-8 mr-10 sm:px-0 text-sm"
-          style={{ width: "1000px" }}
-        >
+        <div className=" grid sm:grid-cols-2 md:grid-cols-4 gap-8 mr-10 sm:px-0 text-sm">
           {projects.map(({ id, title, abc, src, href1, href2 }) => (
             <div key={id} className="shadow-md shadow-gray-500 rounded-lg">
               <p className="py-1 bg-black text-white text-sm  text-center w-full ">
@@ -84,21 +81,22 @@ const Projects = () => {
               </div>
 
               <div
-                className="flex items-center justify-center
-                bg-gradient-to-b from-black to-gray-700"
+                className="text-center 
+                bg-gradient-to-b  from-black to-gray-700"
               >
                 <a
                   href={href2}
-                  className="w-1/2 text-sm duration-200 hover:scale-110"
+                  className=" w-1/2 text-sm duration-200 hover:scale-115 hover:text-blue-600"
                   target="_blank"
                   rel="noreferrer"
                 >
                   FRONTEND
-                </a>
+                </a>{" "}
+                &nbsp;
                 {/* make href for backend */}
                 <a
                   href={href2}
-                  className="text-sm duration-200 hover:scale-110"
+                  className="text-sm hover:scale-115 hover:text-blue-600"
                   target="_blank"
                   rel="noreferrer"
                 >
