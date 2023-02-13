@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full  bg-gradient-to-b from-black via-black to-gray-800 text-white"
+      className="h-screen w-full  bg-gradient-to-b from-black via-black to-gray-800 text-white text-left"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4  md:flex-row">
         <div className="flex flex-col justify-center h-full">
@@ -22,10 +22,10 @@ const Home = () => {
           <div>
             <a
               href="https://drive.google.com/file/d/1idfgDAxLorTp0Bx9emr6wuA4YWAKOf0G/view?usp=share_link"
-              target="_blank" 
+              target="_blank"
               rel="noreferrer"
             >
-              <button className=" group text-white w-fit px-3 py-1 my-2 flex items-center rounded-md bg-gradient-to-r from-sky-700 hover:bg-gray-500 cursor-pointer">
+              <button className=" group text-white w-fit px-3 py-1 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 hover:bg-gray-500 cursor-pointer">
                 Resume
                 <span>
                   <MdOutlineKeyboardArrowRight size={25} className="ml-2" />
@@ -38,7 +38,8 @@ const Home = () => {
           <img
             src={MyPhoto}
             alt="Vidhyasagar profile"
-            className="rounded-full w-5/12 mx-auto shadow-md shadow-gray-500"
+            className="rounded-tl-3xl rounded-br-3xl w-5/12  mx-auto border-2 border-white
+            shadow-2xl shadow-gray-500"
           />
         </div>
       </div>

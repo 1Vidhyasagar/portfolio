@@ -46,11 +46,11 @@ const Projects = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full pt-28">
         <div>
-          <p className="text-2xl font-bold">Projects</p>
+          <p className="text-2xl font-bold pt-5">Projects</p>
         </div>
 
         <div
-          className="pt-1 grid sm:grid-cols-2 md:grid-cols-4 gap-8 mr-10 sm:px-0 text-sm"
+          className=" grid sm:grid-cols-2 md:grid-cols-4 gap-8 mr-10 sm:px-0 text-sm"
           style={{ width: "1000px" }}
         >
           {projects.map(({ id, title, abc, src, href1, href2 }) => (
@@ -59,7 +59,7 @@ const Projects = () => {
                 Project : {title}
               </p>
               <div>
-                <p className=" text-center  text-xs bg-gray max-w-sm w-full text-gray-400">
+                <p className=" text-justify p-1  text-xs bg-gray max-w-sm w-full text-gray-400">
                   {abc}
                 </p>
               </div>
@@ -75,7 +75,7 @@ const Projects = () => {
               >
                 <a
                   href={href1}
-                  className="w-1/2 px-7  text-sm duration-200 hover:scale-110"
+                  className=" font-bold w-1/2 px-7  text-sm duration-200 hover:scale-125 hover:text-blue-600"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -109,7 +109,7 @@ const Projects = () => {
           ))}
         </div>
 
-        <div className="mt-8">
+        <div className="mt-6">
           <p>Currently I am working on following projects</p>
           <ul className="list-disc text-sm ">
             <li>Movie ticket booking app/site</li>

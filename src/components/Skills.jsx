@@ -69,35 +69,32 @@ const tech=[
 ]
 
   return (
-    <div name="skills"
+    <div
+      name="skills"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
-        <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white pt-20">
-            <div>
-                <p className="text-2xl  font-bold inline">Skills
-                </p>
-                <p className="py-10 pb-3 pt-2	">These are my skills I am focusing on</p>
-            </div>
-
-            <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-6 text-center sm:px-0">
-
-            {
-                tech.map(({id, src, title, style})=>(
-               <div 
-               key={id}
-                className={`w-44 shadow-md hover:scale-105 duration-500  rounded-lg ${style}`}>
-                <img  src={src} alt="" className=" w-10 mx-auto" />
-                <p className="mt-2 text-sm">{title}</p>
-             </div>
-                ))
-            }
-       
-          </div>
-       
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white pt-20">
+        <div>
+          <p className="text-2xl  font-bold inline">Skills</p>
+          <p className="py-10 pb-3 pt-2 font-medium text-gray-300">
+            These are my skills I am focusing on
+          </p>
         </div>
 
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-6 text-center sm:px-0">
+          {tech.map(({ id, src, title, style }) => (
+            <div
+              key={id}
+              className={`w-44 shadow-md hover:scale-105 duration-500  rounded-lg ${style}`}
+            >
+              <img src={src} alt="" className=" w-10 mx-auto" />
+              <p className="mt-2 text-sm">{title}</p>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Skills
