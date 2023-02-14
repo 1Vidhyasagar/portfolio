@@ -8,6 +8,9 @@ import mongodb from"../downloads/mongodb.png"
 import express from"../downloads/express.png"
 import mysql from"../downloads/mysql.png"
 import github from"../downloads/github.png"
+import {faTools} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 const Skills = () => { 
 
@@ -77,7 +80,8 @@ const tech=[
         <div>
           <p className="text-2xl  font-bold inline">Skills</p>
           <p className="py-10 pb-3 pt-2 font-medium text-gray-300">
-            These are my skills I am focusing on
+            <FontAwesomeIcon icon={faTools} style={{ color: "#06b6d4" }} />
+            &nbsp; These are my skills I am focusing on
           </p>
         </div>
 

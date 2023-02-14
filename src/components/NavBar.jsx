@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {Link} from "react-scroll";
+import name from "../downloads/name.gif";
+
 
 const NavBar = () => {
 
@@ -35,11 +37,13 @@ const NavBar = () => {
     
      
   return (
-    <div className=" flex justify-between items-center w-full h-24   px-4 text-gray-300 bg-black fixed">
+    <div className=" flex justify-between overflow-hidden items-center w-full h-24   px-4 text-gray-300 bg-black fixed">
       <div>
-        <h1 className="flex justify-start text-6xl font-sign text-cyan-500	 ml-2">
-          Vidhyasagar
-        </h1>
+        <img
+          className="flex justify-start max-w-full max-h-full text-6xl ml-2"
+          src={name}
+          alt="name gif"
+        />
       </div>
 
       <ul className="invisible md:visible md:flex">

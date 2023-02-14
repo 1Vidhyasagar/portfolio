@@ -42,11 +42,11 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="text-center sm:text-left bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="text-center sm:text-left bg-gradient-to-b from-gray-600 via-gray-900 to-gray-700 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full pt-28">
         <div>
-          <p className="text-2xl font-bold pt-5">Projects</p>
+          <p className="text-2xl font-bold pt-3">Projects</p>
         </div>
 
         <div className=" grid sm:grid-cols-2 md:grid-cols-4 gap-8 mr-10 sm:px-0 text-sm">
@@ -56,7 +56,7 @@ const Projects = () => {
                 Project : {title}
               </p>
               <div>
-                <p className=" text-justify p-1  text-xs bg-gray max-w-sm w-full text-gray-400">
+                <p className=" text-justify p-1  text-xs bg-gray max-w-sm w-full text-gray-200">
                   {abc}
                 </p>
               </div>
@@ -96,7 +96,7 @@ const Projects = () => {
                 {/* make href for backend */}
                 <a
                   href={href2}
-                  className="text-sm hover:scale-115 hover:text-blue-600"
+                  className="text-sm hover:scale-115 hover:text-blue-600npm "
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -107,11 +107,10 @@ const Projects = () => {
           ))}
         </div>
 
-        <div className="mt-6">
-          <p>Currently I am working on following projects</p>
-          <ul className="list-disc text-sm ">
-            <li>Movie ticket booking app/site</li>
-            <li>AWS polymer search clone</li>
+        <div className="pt-3 text-sm">
+          <p>Currently I am working on Projects namely</p>
+          <ul className="list-disc text-xs ">
+            <li>Movie ticket booking app/site ,&nbsp; AWS polymer search clone</li>
           </ul>
         </div>
       </div>
