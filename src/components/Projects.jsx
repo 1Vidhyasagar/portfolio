@@ -42,7 +42,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="text-center sm:text-left bg-gradient-to-b from-gray-600 via-gray-900 to-gray-700 w-full text-white md:h-screen"
+      className="px-4 text-center sm:text-left bg-gradient-to-b from-gray-600 via-gray-900 to-gray-700 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full pt-28">
         <div>
@@ -56,7 +56,7 @@ const Projects = () => {
                 Project : {title}
               </p>
               <div>
-                <p className=" text-justify p-1  text-xs bg-gray max-w-sm w-full text-gray-200">
+                <p className=" text-justify px-2  text-xs bg-gray max-w-sm w-full text-gray-200">
                   {abc}
                 </p>
               </div>
@@ -64,7 +64,7 @@ const Projects = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105 px-1"
+                className="w-full rounded-md duration-200 hover:scale-105"
               />
               <div
                 className="flex items-center justify-center
@@ -96,7 +96,7 @@ const Projects = () => {
                 {/* make href for backend */}
                 <a
                   href={href2}
-                  className="text-sm hover:scale-115 hover:text-blue-600npm "
+                  className="text-sm hover:scale-115 hover:text-blue-600"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -110,7 +110,10 @@ const Projects = () => {
         <div className="pt-3 text-sm">
           <p>Currently I am working on Projects namely</p>
           <ul className="list-disc text-xs ">
-            <li>Movie ticket booking app/site ,&nbsp; AWS polymer search clone</li>
+            <li>
+              Movie ticket booking app/site &nbsp;&&nbsp; AWS polymer search
+              clone
+            </li>
           </ul>
         </div>
       </div>
