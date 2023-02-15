@@ -38,21 +38,25 @@ const Projects = () => {
       href1: "https://movies-1list.netlify.app/",
       href2: "https://github.com/1Vidhyasagar/Day_25.-2-",
     },
+    
   ];
   return (
     <div
       name="projects"
       className="px-4 text-center sm:text-left bg-gradient-to-b from-gray-600 via-gray-900 to-gray-700 w-full text-white md:h-screen"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full pt-28">
+      <div className=" max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full pt-24">
         <div>
-          <p className="text-2xl font-bold pt-3">Projects</p>
+          <p className="text-2xl font-bold ">Projects</p>
         </div>
 
-        <div className=" grid sm:grid-cols-2 md:grid-cols-4 gap-8 mr-10 sm:px-0 text-sm">
+        <div
+          className="  overflow-auto  pt-1 grid sm:grid-cols-2 md:grid-cols-4 gap-8 mr-10 sm:px-0 text-sm "
+          style={{ scrollbarWidth: "thin", scrollbarColor: "black" }}
+        >
           {projects.map(({ id, title, abc, src, href1, href2 }) => (
-            <div key={id} className="shadow-md shadow-gray-500 rounded-lg">
-              <p className="py-1 bg-black text-white text-sm  text-center w-full ">
+            <div key={id} className="shadow-md shadow-gray-500 rounded-lg ">
+              <p className="py-1 bg-black text-white text-sm  text-center w-full h-7 ">
                 Project : {title}
               </p>
               <div>
@@ -64,7 +68,7 @@ const Projects = () => {
               <img
                 src={src}
                 alt=""
-                className="w-full rounded-md duration-200 hover:scale-105"
+                className="duration-200 hover:scale-95 p-1  w-12/12 rounded-md"
               />
               <div
                 className="flex items-center justify-center
@@ -81,12 +85,12 @@ const Projects = () => {
               </div>
 
               <div
-                className="text-center 
+                className="text-center
                 bg-gradient-to-b  from-black to-gray-700"
               >
                 <a
                   href={href2}
-                  className=" w-1/2 text-sm duration-200 hover:scale-115 hover:text-blue-600"
+                  className=" w-1/2 text-sm duration-200 hover:scale-125 hover:text-blue-600"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -107,13 +111,13 @@ const Projects = () => {
           ))}
         </div>
 
-        <div className="pt-3 text-sm">
+        <div className="pt-3 text-center text-sm">
           <p>Currently I am working on Projects namely</p>
           <ul className="list-disc text-xs ">
-            <li>
+            
               Movie ticket booking app/site &nbsp;&&nbsp; AWS polymer search
               clone
-            </li>
+          
           </ul>
         </div>
       </div>
