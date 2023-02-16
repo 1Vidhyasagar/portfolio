@@ -44,7 +44,7 @@ const Contact = () => {
             <textarea
               name="message"
               placeholder="Enter your message"
-              rows="10"
+              rows="7"
               className="p-2 text-sm bg-transparent border-2 rounded-md text-center align:center text-white focus:outline-none"
             ></textarea>
             <button className="text-white bg-cyan-600 px-4  my-2 mx-auto flex items-center rounded-md hover:scale-110   hover:bg-cyan-400 duration-300">
