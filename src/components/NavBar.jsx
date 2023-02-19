@@ -1,9 +1,7 @@
 import React, {useState} from 'react';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {Link} from "react-scroll";
-import name from "../downloads/name.gif";
-
-
+import name from "../downloads/name.svg";
 const NavBar = () => {
 
     const [nav, setNav] = useState(false);
@@ -37,7 +35,7 @@ const NavBar = () => {
     
      
   return (
-    <div className=" flex justify-between  items-center w-full h-24   px-4 text-gray-300 bg-black fixed">
+    <div className="  flex justify-between  items-center w-full h-20   px-4 bg-black bg-opacity-60 backdrop-filter backdrop-blur-lg fixed">
       <div>
         <img
           className="flex justify-start max-w-full max-h-full text-6xl ml-2"
@@ -50,7 +48,7 @@ const NavBar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-5 cursor-pointer capitalize font-medium text-gray-100 hover:scale-110 duration-200"
+            className="px-5 cursor-pointer capitalize font-medium text-white hover:scale-110 duration-200"
           >
             <Link to={link} smooth duration={500}>
               {link}

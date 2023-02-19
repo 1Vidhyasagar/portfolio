@@ -6,16 +6,16 @@ const Contact = () => {
   return (
     <div
       name="Contact"
-      className=" text-center sm:text-left w-full h-screen bg-gradient-to-b from-gray-800 via-gray-700 to-gray-600 p-10 text-whie"
+      className=" text-center sm:text-left w-full h-screen bg-gray-100 p-10"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="">
-          <p className="text-2xl text-white font-bold mt-16">Contact</p>
-          <a className="text-white" href="tel:+919822074397">
-            Call me at &nbsp;<span>&#9990;</span>
+          <p className="text-2xl text-black font-bold mt-16">Contact</p>
+          <a className="text-black " href="tel:+919822074397">
+            &nbsp;Call me at &nbsp;<span>&#9990;</span>
             &nbsp;+91 9822074397
           </a>
-          <p className=" text-center text-white">
+          <p className=" text-center text-black">
             <FontAwesomeIcon icon={faEdit} style={{ color: "#06b6d4" }} />{" "}
             Kindly fill below and contact me{" "}
           </p>
@@ -33,27 +33,27 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="mb-1 text-sm bg-transparent border-2 rounded-md text-center text-white focis:outline-none"
+              className=" border-gray-400 text-sm bg-transparent border-2 rounded-md text-center align:center  focus:outline-none"
             />
             <input
               type="text"
               name="email"
               placeholder="Enter your email"
-              className="mb-1 text-sm bg-transparent border-2 rounded-md text-center text-white focis:outline-none"
+              className="border-gray-400 text-sm bg-transparent border-2 rounded-md text-center align:center text-gray-700 focus:outline-none"
             />
             <textarea
               name="message"
               placeholder="Enter your message"
               rows="7"
-              className="p-2 text-sm bg-transparent border-2 rounded-md text-center align:center text-white focus:outline-none"
+              className="border-gray-400 p-2 text-sm bg-transparent border-2 rounded-md text-center align:center text-gray-700 focus:outline-none"
             ></textarea>
-            <button className="text-white bg-cyan-600 px-4  my-2 mx-auto flex items-center rounded-md hover:scale-110   hover:bg-cyan-400 duration-300">
+            <button className="text-white bg-cyan-500 px-4  my-2 mx-auto flex items-center rounded-md hover:scale-110   hover:bg-sky-800 duration-300">
               Submit
             </button>
           </form>
         </div>
       </div>
-      <footer class="border-t text-xs w-full bg text-white pt-2  ">
+      <footer class="border-t border-t-gray-500 text-xs w-full bg text-black pt-2  ">
         <div class="container mx-auto flex justify-between">
           <p>copyright &copy; 2023 | Vidhyasagar Myana. All rights reserved</p>
           <p>India</p>

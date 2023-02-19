@@ -1,12 +1,4 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faPlane,
-  faLanguage,
-  faPalette,
-  faCertificate,
-} from "@fortawesome/free-solid-svg-icons";
-
 
 const Interests = () => {
   return (
@@ -20,8 +12,7 @@ const Interests = () => {
         </div>
         <div>
           <ul className="list-disc p-auto">
-            <FontAwesomeIcon icon={faCertificate} />
-            &nbsp;Guvi JavaScript{" "}
+            &nbsp;&nbsp;Guvi JavaScript{" "}
             <a
               href="https://www.guvi.in/verify-certificate?id=3Yl42qi27wc6160d6A&course=javascript_en"
               target="_blank"
@@ -37,16 +28,10 @@ const Interests = () => {
         </div>
         <div>
           <ul className="list-disc p-auto ">
-            <FontAwesomeIcon icon={faPalette} style={{ color: "red" }} />{" "}
-            Art
+            &nbsp;&nbsp;Art
             <br />
-            <FontAwesomeIcon icon={faPlane} style={{ color: "cyan" }} />{" "}
-            Travelling <br />
-            <FontAwesomeIcon
-              icon={faLanguage}
-              style={{ color: "blue" }}
-            />{" "}
-            Learning new languages
+            &nbsp;&nbsp;Travelling <br />
+            &nbsp;&nbsp;Learning new languages
             <br />
           </ul>
         </div>

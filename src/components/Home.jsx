@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full px-4  bg-gradient-to-b from-black via-black to-gray-800 text-white text-left"
+      className="h-screen w-full px-4  bg-gradient-to-b from-gray-700  via-black to-black text-white text-left"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4  md:flex-row">
         <div className="flex flex-col justify-center h-full">
@@ -38,8 +38,8 @@ const Home = () => {
           <img
             src={MyPhoto}
             alt="Vidhyasagar profile"
-            className="rounded-tl-3xl rounded-br-3xl w-5/12  mx-auto border-2 border-white
-            shadow-2xl shadow-gray-500"
+            className="rounded-tl-3xl rounded-br-3xl w-5/12  mx-auto
+            shadow-xl shadow-gray-800"
           />
         </div>
       </div>
