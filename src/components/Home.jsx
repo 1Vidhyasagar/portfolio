@@ -38,8 +38,8 @@ const Home = () => {
           <img
             src={MyPhoto}
             alt="Vidhyasagar profile"
-            className="rounded-tl-3xl rounded-br-3xl w-5/12  mx-auto
-            shadow-xl shadow-gray-800"
+            className="mb-20 lg:mt-20 rounded-tl-3xl rounded-br-3xl w-5/12  mx-auto
+            shadow-xl shadow-gray-700"
           />
         </div>
       </div>

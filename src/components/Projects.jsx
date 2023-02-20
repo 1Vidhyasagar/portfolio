@@ -94,7 +94,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="p-4 text-center sm:text-left bg-white h-screen w-full "
+      className="p-4 text-center sm:text-left bg- bg-white h-screen w-full "
     >
       <div className=" max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full pt-24 text-black px-4">
         <div className="flex  align-center  ">
@@ -105,14 +105,14 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className=" w-11/12 card-slider sm:px-0 text-sm ">
+        <div className=" w-12/12 card-slider sm:px-0 text-sm ">
           <Slider ref={sliderRef} {...settings}>
             {projects.map(({ id, title, abc, src, href1, href2 }) => (
               <div
                 key={id}
-                className=" opacity-80 rounded-lg bg-black mb-2  pl-1 pr-1 border-8 border-white"
+                className=" rounded-lg bg-black mb-2  pl-1 pr-1 border-8 border-white"
                 style={{
-                  width: "300px",
+                  width: "400px",
                   display: "inline-block",
                 }}
               >
@@ -128,7 +128,7 @@ const Projects = () => {
                 <img
                   src={src}
                   alt=""
-                  className="duration-200 hover:scale-95 w-12/12 rounded-md"
+                  className="pl-2 duration-200 hover:scale-95 w-12/12 rounded-md"
                 />
                 <div className="text-center text-white">
                   <a

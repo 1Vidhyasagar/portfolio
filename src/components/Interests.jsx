@@ -4,7 +4,7 @@ const Interests = () => {
   return (
     <div
       name="Interests"
-      className="text-center sm:text-left w-full h-screen bg-[url('./downloads/bg.jpg')] text-white"
+      className="bg-cover text-center sm:text-left w-full h-screen bg-[url('./downloads/bgv.gif')] text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto pt-10  flex flex-col justify-center w-full h-full">
         <div className="pb-5">
@@ -35,6 +35,11 @@ const Interests = () => {
             <br />
           </ul>
         </div>
+      </div>
+      <div className="bg-video-container h-screen">
+        <video autoPlay loop muted className="object-cover">
+          <source src="../downloads/video.mp4" type="video/mp4" />
+        </video>
       </div>
     </div>
   );
