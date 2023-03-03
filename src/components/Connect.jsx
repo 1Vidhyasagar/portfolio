@@ -43,7 +43,7 @@ const Connect = () => {
             <li key={id} className={"flex justify-between items-center w-18 h-16 px-4 mr-[-100px] hover:mr-[-10px] hover:text-blue-600 font-bold hover:rounded-md duration-500  " + " "+ style} >
               <a 
               href={href}
-              className="flex justify-between items-center w-full text-gray-400"
+              className="flex justify-between items-center w-full text-gray-500"
               download={download}
               target='_blank' 
               rel="noreferrer"

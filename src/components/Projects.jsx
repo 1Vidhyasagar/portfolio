@@ -8,6 +8,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useEffect, useRef } from "react";
 
+
+
 const Projects = () => {
 
   const projects = [
@@ -52,7 +54,7 @@ const Projects = () => {
       if (slider) {
         slider.slickNext();
       }
-    }, 5000); // Change this value to set the autoplay interval
+    }, 10000); // Change this value to set the autoplay interval
 
     return () => {
       clearInterval(interval);
@@ -62,14 +64,13 @@ const Projects = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 400,
+    speed: 2000,
     slidesToShow: 2,
     slidesToScroll: 1,
     swipeToSlide: true,
     variableWidth: true,
     arrows: true,
-    
-
+   
     responsive: [
       {
         breakpoint: 1024,
@@ -94,7 +95,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="p-4 text-center sm:text-left bg- bg-white h-screen w-full "
+      className="p-4 text-center sm:text-left bg- bg-gray-400 h-screen w-full "
     >
       <div className=" max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full pt-24 text-black px-4">
         <div className="flex  align-center  ">
@@ -110,9 +111,9 @@ const Projects = () => {
             {projects.map(({ id, title, abc, src, href1, href2 }) => (
               <div
                 key={id}
-                className=" rounded-lg bg-black mb-2  pl-1 pr-1 border-8 border-white"
+                className="  bg-black mb-2  border-8 border-gray-400"
                 style={{
-                  width: "400px",
+                  width: "350px",
                   display: "inline-block",
                 }}
               >
@@ -120,7 +121,7 @@ const Projects = () => {
                   Project : {title}
                 </p>
                 <div>
-                  <p className=" text-justify p-  text-xs bg-gray max-w-sm w-full text-gray-200">
+                  <p className="px-1 pb-1 text-justify p-  text-xs bg-gray max-w-sm w-full text-gray-200">
                     {abc}
                   </p>
                 </div>
@@ -128,7 +129,7 @@ const Projects = () => {
                 <img
                   src={src}
                   alt=""
-                  className="pl-2 duration-200 hover:scale-95 w-12/12 rounded-md"
+                  className=" duration-200 hover:scale-95 w-full"
                 />
                 <div className="text-center text-white">
                   <a
