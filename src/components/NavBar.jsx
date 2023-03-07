@@ -35,10 +35,10 @@ const NavBar = () => {
     
      
   return (
-    <div className="  flex justify-between  items-center w-full h-16   px-4 bg-black bg-opacity-60 backdrop-filter backdrop-blur-lg fixed">
+    <div className="  flex justify-evenly items-center w-full h-16  pr-40 text-xs bg-black bg-opacity-60 backdrop-filter backdrop-blur-lg fixed">
       <div>
         <img
-          className="flex justify-start max-w-full max-h-full text-6xl ml-2"
+          className="flex justify-start max-w-full max-h-full "
           src={name}
           alt="name gif"
         />
