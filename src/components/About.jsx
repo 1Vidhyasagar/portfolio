@@ -42,7 +42,7 @@ const About = () => {
             <img
               src={MyPhoto}
               alt="developer gif"
-              className=" rounded-tl-3xl rounded-br-3xl   shadow-xl shadow-gray-400"
+              className=" rounded-tl-3xl rounded-br-3xl  shadow-xl shadow-gray-400"
             />
           </div>
         </div>

@@ -10,11 +10,11 @@ const Home = () => {
       className="h-screen w-full px-5  bg-gradient-to-b from-gray-700  via-black to-black text-white text-left"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 pl-8  md:flex-row">
-        <div className="flex flex-col justify-center h-full">
-          <h3 className=" text-4xl font-bold sm:text-2xl pt-20  text-white ">
+        <div className="flex mt-4 flex-col justify-center h-full">
+          <h3 className="font-bold sm:text-2xl  text-white ">
             Hi' &nbsp; There <br />I am a full Stack Developer
           </h3>
-          <p className="pl-4 font-medium  text-gray-400 py-4 max-w-md">
+          <p className="pl-4 mt-2 mb-4 font-medium  text-gray-400 py-4 max-w-md">
             Enthusiastic and adaptive in nature to work with MERN technology for
             developing web applications.
           </p>
@@ -28,7 +28,7 @@ const Home = () => {
               <button className=" group text-white w-fit px-3 py-1 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 hover:bg-gray-500 cursor-pointer">
                 Resume
                 <span>
-                  <MdOutlineKeyboardArrowRight size={25} className="ml-2" />
+                  <MdOutlineKeyboardArrowRight size={40} className="ml-2" />
                 </span>
               </button>
             </a>
@@ -38,7 +38,7 @@ const Home = () => {
           <img
             src={MyPhoto}
             alt="Vidhyasagar profile"
-            className="mb-20 lg:mt-20 rounded-tl-3xl rounded-br-3xl w-5/12  mx-auto
+            className="mb-20  lg:mt-20 rounded-tl-3xl rounded-br-3xl w-7/12  mx-auto
             shadow-2xl shadow-gray-800"
           />
         </div>
