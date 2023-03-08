@@ -10,10 +10,10 @@ const About = () => {
     >
       <div className="max-w-screen-lg px-4 pl-8 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-5">
-          <p className="text-2xl pt-10 font-bold  ">About</p>
+          <p className="text-2xl font-bold  ">About</p>
         </div>
         <div class="flex space-x-8">
-          <div className="pl-4 text-justify font-medium text-black">
+          <div className=" text-justify font-medium text-black">
             <p>
               Being passionate about Computers and technology is the main reason
               for me to work in this field. I have an interest in designing and

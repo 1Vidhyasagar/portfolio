@@ -3,7 +3,6 @@ import brewery from "../downloads/projects/brewery.png";
 import covid from "../downloads/projects/covid.png";
 import game from "../downloads/projects/game.png";
 import movies from "../downloads/projects/movies.png";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useEffect, useRef } from "react";
@@ -61,110 +60,66 @@ const Projects = () => {
     };
   }, []);
 
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 2000,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    swipeToSlide: true,
-    variableWidth: true,
-    arrows: true,
-   
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          variableWidth: false,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          variableWidth: false,
-        },
-      },
-    ],
-  };
-  
-
   return (
     <div
       name="projects"
-      className="p-4 text-center sm:text-left bg- bg-gray-400 h-screen w-full "
+      className="p-4 pt-16 text-center sm:text-left bg- bg-gray-300 h-full w-full "
     >
-      <div className=" max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full pt-16 text-black px-4 pl-8">
+      <div className=" max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full  text-black px-4 pl-8">
         <div className="flex  align-center  ">
           <p className="text-2xl font-bold">Projects </p>
           <p className="text-sm mt-2">
-            &nbsp;&nbsp;&nbsp;Explore my hands-free projects gallery, where a
-            click is all it takes to discover!
+            &nbsp;&nbsp;&nbsp;Explore my projects gallery, where a click is all
+            it takes to discover!
           </p>
         </div>
 
-        <div className=" w-12/12 card-slider sm:px-0 text-sm ">
-          <Slider ref={sliderRef} {...settings}>
-            {projects.map(({ id, title, abc, src, href1, href2 }) => (
-              <div
-                key={id}
-                className="  bg-black mb-2  border-8 border-gray-400"
-                style={{
-                  width: "350px",
-                  display: "inline-block",
-                }}
-              >
-                <p className="py-1 text-sky-400  text-sm  text-center w-full h-auto ">
-                  Project : {title}
+        <div className="lg: grid grid-cols-2 sm:grid-cols-3  gap-8 text-center sm:px-0 ">
+          {projects.map(({ id, title, abc, src, href1, href2 }) => (
+            <div key={id} className=" bg-gray-800 rounded-lg">
+              <p className="py-1 text-sky-400  text-sm  text-center w-full h-auto ">
+                Project : {title}
+              </p>
+              <div>
+                <p className="px-5 pb-1 text-justify p-  text-xs bg-gray text-gray-200">
+                  {abc}
                 </p>
-                <div>
-                  <p className="px-1 pb-1 text-justify p-  text-xs bg-gray max-w-sm w-full text-gray-200">
-                    {abc}
-                  </p>
-                </div>
-
-                <img
-                  src={src}
-                  alt=""
-                  className=" duration-200 hover:scale-95 w-full"
-                />
-                <div className="text-center text-white">
-                  <a
-                    href={href1}
-                    className=" text-center font-bold w-1/2 px-7  text-sm duration-200 hover:scale-125 hover:text-blue-600"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    LIVE
-                  </a>
-                </div>
-
-                <div className="text-center text-white">
-                  <a
-                    href={href2}
-                    className=" w-1/2 text-sm duration-200 hover:scale-125 hover:text-blue-600"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    FRONTEND
-                  </a>
-                  &nbsp;&nbsp;
-                  {/* make href for backend */}
-                  <a
-                    href={href2}
-                    className="text-sm hover:scale-115 hover:text-blue-600"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    BACKEND
-                  </a>
-                </div>
               </div>
-            ))}
-          </Slider>
+
+              <img src={src} alt="" className=" w-10/12 h-24 mx-auto" />
+              <div className="text-center text-white">
+                <a
+                  href={href1}
+                  className=" text-center font-bold w-1/2 px-7  text-sm duration-200 hover:scale-125 hover:text-blue-600"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  LIVE
+                </a>
+              </div>
+
+              <div className="text-center text-white">
+                <a
+                  href={href2}
+                  className=" w-1/2 text-sm duration-200 hover:scale-125 hover:text-blue-600"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  FRONTEND
+                </a>
+                &nbsp;&nbsp;
+                {/* make href for backend */}
+                <a
+                  href={href2}
+                  className="text-sm hover:scale-115 hover:text-blue-600"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  BACKEND
+                </a>
+              </div>
+            </div>
+          ))}
         </div>
 
         <div className="pt-2 text-sm">

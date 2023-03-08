@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full px-5  bg-gradient-to-b from-gray-700  via-black to-black text-white text-left"
+      className="place-content-center h-screen w-full px-5  bg-gradient-to-b from-gray-700  via-black to-black text-white text-left"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 pl-8  md:flex-row">
         <div className="flex mt-4 flex-col justify-center h-full">
@@ -25,11 +25,12 @@ const Home = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className=" group text-white w-fit px-3 py-1 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 hover:bg-gray-500 cursor-pointer">
+              <button
+                className=" group text-white w-7/12 px-3 py-1 my-2 flex items-center rounded-md bg-gradient-to-l from-cyan-500  to-gray-900 cursor-pointer  font-bold transition-transform duration-300 ease-in-out transform hover:translate-x-2
+              "
+              >
                 Resume
-                <span>
-                  <MdOutlineKeyboardArrowRight size={40} className="ml-2" />
-                </span>
+                <MdOutlineKeyboardArrowRight size={40} className="ml-2" />
               </button>
             </a>
           </div>

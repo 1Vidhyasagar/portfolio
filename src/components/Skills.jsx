@@ -74,12 +74,12 @@ const tech=[
   return (
     <div
       name="skills"
-      className="px-4 pl-8 text-center sm:text-left bg-gradient-to-b from-gray-500 to-black w-full h-screen"
+      className=" text-center sm:text-left bg-gradient-to-b from-gray-700 to-black w-full h-screen"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white pt-20">
+      <div className="max-w-screen-lg px-4 pl-8 pt-10 mx-auto flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-2xl  font-bold inline">Skills</p>
-          <p className="py-10 pl-8 pb-2 pt-2 font-medium text-gray-300">
+          <p className="py-10  pb-2 pt-2 font-medium text-gray-300">
             <FontAwesomeIcon icon={faTools} style={{ color: "#06b6d4" }} />
             &nbsp; These are my skills I am focusing on
           </p>
