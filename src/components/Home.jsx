@@ -26,10 +26,11 @@ const Home = () => {
               rel="noreferrer"
             >
               <button
-                className=" group text-white w-7/12 px-3 py-1 my-2 flex items-center rounded-md bg-gradient-to-l from-cyan-500  to-gray-900 cursor-pointer  font-bold transition-transform duration-300 ease-in-out transform hover:translate-x-2
+                className="  text-white w-6/12 px-3 py-1 my-2 flex items-center rounded-md bg-gradient-to-l from-cyan-500  to-gray-900 cursor-pointer 
               "
               >
                 Resume
+                
                 <MdOutlineKeyboardArrowRight size={40} className="ml-2" />
               </button>
             </a>

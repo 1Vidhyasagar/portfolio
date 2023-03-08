@@ -74,7 +74,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="lg: grid grid-cols-2 sm:grid-cols-3  gap-8 text-center sm:px-0 ">
+        <div className="lg: grid grid-cols-2 sm:grid-cols-3  gap-4 text-center sm:px-0 ">
           {projects.map(({ id, title, abc, src, href1, href2 }) => (
             <div key={id} className=" bg-gray-800 rounded-lg">
               <p className="py-1 text-sky-400  text-sm  text-center w-full h-auto ">
@@ -86,36 +86,25 @@ const Projects = () => {
                 </p>
               </div>
 
-              <img src={src} alt="" className=" w-10/12 h-24 mx-auto" />
-              <div className="text-center text-white">
-                <a
-                  href={href1}
-                  className=" text-center font-bold w-1/2 px-7  text-sm duration-200 hover:scale-125 hover:text-blue-600"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  LIVE
+              <img src={src} alt="" className=" w-10/12 h-24  mx-auto" />
+              <div>
+                <a href={href1} target="_blank" rel="noreferrer">
+                  <button className="text-white text-sm w-11/12 mt-1 items-center justify-center rounded-md mx-auto  bg-black hover:bg-cyan-700 cursor-pointer">
+                    LIVE
+                  </button>
                 </a>
               </div>
 
-              <div className="text-center text-white">
-                <a
-                  href={href2}
-                  className=" w-1/2 text-sm duration-200 hover:scale-125 hover:text-blue-600"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  FRONTEND
+              <div className="pb-1">
+                <a href={href2} target="_blank" rel="noreferrer" >
+                  <button className=" text-white text-sm w-5/12 items-center justify-center rounded-md  bg-black hover:bg-cyan-700 cursor-pointer">
+                    FRONTEND
+                  </button>
                 </a>
-                &nbsp;&nbsp;
-                {/* make href for backend */}
-                <a
-                  href={href2}
-                  className="text-sm hover:scale-115 hover:text-blue-600"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  BACKEND
+                <a href={href2} target="_blank" rel="noreferrer">
+                  <button className="text-white text-sm w-5/12 items-center justify-center ml-3 rounded-md  bg-black hover:bg-cyan-700 cursor-pointer">
+                    BACKEND
+                  </button>
                 </a>
               </div>
             </div>
