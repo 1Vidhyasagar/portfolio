@@ -35,10 +35,10 @@ const NavBar = () => {
     
      
   return (
-    <div className="  flex justify-evenly items-center w-full h-12  pr-40 text-sm bg-black bg-opacity-60 backdrop-filter backdrop-blur-lg fixed">
+    <div className="  flex justify-evenly items-center w-full h-12  text-sm bg-black bg-opacity-60 backdrop-filter backdrop-blur-lg fixed">
       <div>
         <img
-          className="flex justify-start max-w-full max-h-full "
+          className=" flex justify-start max-w-full max-h-full "
           src={name}
           alt="name gif"
         />
@@ -48,7 +48,7 @@ const NavBar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-5 cursor-pointer capitalize font-medium text-white hover:scale-110 duration-200"
+            className="px-5 cursor-pointer capitalize text-white hover:scale-110 duration-200"
           >
             <Link to={link} smooth duration={500}>
               {link}

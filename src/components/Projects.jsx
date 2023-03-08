@@ -97,7 +97,7 @@ const Projects = () => {
       name="projects"
       className="p-4 text-center sm:text-left bg- bg-gray-400 h-screen w-full "
     >
-      <div className=" max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full pt-24 text-black px-4">
+      <div className=" max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full pt-16 text-black px-4 pl-8">
         <div className="flex  align-center  ">
           <p className="text-2xl font-bold">Projects </p>
           <p className="text-sm mt-2">

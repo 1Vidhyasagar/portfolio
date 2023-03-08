@@ -9,10 +9,10 @@ const Contact = () => {
       className=" text-center sm:text-left w-full h-screen bg-gray-100 p-10"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="">
+        <div className="pl-4 ">
           <p className="text-2xl text-black font-bold mt-16">Contact</p>
-          <a className="text-black " href="tel:+919822074397">
-            &nbsp;Call me at &nbsp;<span>&#9990;</span>
+          <a className="text-black pl-4" href="tel:+919822074397">
+            Call me at &nbsp;<span>&#9990;</span>
             &nbsp;+91 9822074397
           </a>
           <p className=" text-center text-black">

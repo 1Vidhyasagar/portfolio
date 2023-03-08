@@ -74,18 +74,18 @@ const tech=[
   return (
     <div
       name="skills"
-      className="px-4 text-center sm:text-left bg-gradient-to-b from-gray-500 to-black w-full h-screen"
+      className="px-4 pl-8 text-center sm:text-left bg-gradient-to-b from-gray-500 to-black w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white pt-20">
         <div>
           <p className="text-2xl  font-bold inline">Skills</p>
-          <p className="py-10 pb-3 pt-2 font-medium text-gray-300">
+          <p className="py-10 pl-8 pb-2 pt-2 font-medium text-gray-300">
             <FontAwesomeIcon icon={faTools} style={{ color: "#06b6d4" }} />
             &nbsp; These are my skills I am focusing on
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-6 text-center sm:px-0">
+        <div className="w-full lg:pl-8 grid grid-cols-2 sm:grid-cols-3 gap-6 text-center sm:px-0">
           {tech.map(({ id, src, title, style }) => (
             <div
               key={id}
