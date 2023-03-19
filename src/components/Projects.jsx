@@ -89,20 +89,20 @@ const Projects = () => {
               <img src={src} alt="" className=" w-10/12 h-24  mx-auto" />
               <div>
                 <a href={href1} target="_blank" rel="noreferrer">
-                  <button className="text-white text-sm w-11/12 mt-1 items-center justify-center rounded-md mx-auto  bg-black hover:bg-cyan-700 cursor-pointer">
+                  <button className="text-white text-sm w-10/12 h-5 mt-1 items-center justify-center rounded-md mx-auto  bg-black hover:bg-cyan-700 cursor-pointer">
                     LIVE
                   </button>
                 </a>
               </div>
 
-              <div className="pb-1">
-                <a href={href2} target="_blank" rel="noreferrer" >
-                  <button className=" text-white text-sm w-5/12 items-center justify-center rounded-md  bg-black hover:bg-cyan-700 cursor-pointer">
+              <div className="pb-1 px-2">
+                <a href={href2} target="_blank" rel="noreferrer">
+                  <button className=" text-white text-xs w-5/12 h-5 items-center justify-center rounded-md  bg-black hover:scale-125   hover:bg-cyan-700 duration-500 cursor-pointer">
                     FRONTEND
                   </button>
                 </a>
                 <a href={href2} target="_blank" rel="noreferrer">
-                  <button className="text-white text-sm w-5/12 items-center justify-center ml-3 rounded-md  bg-black hover:bg-cyan-700 cursor-pointer">
+                  <button className="text-white text-xs w-5/12 h-5 items-center justify-center ml-3 rounded-md  bg-black hover:scale-125  hover:bg-cyan-700 duration-500 cursor-pointer">
                     BACKEND
                   </button>
                 </a>

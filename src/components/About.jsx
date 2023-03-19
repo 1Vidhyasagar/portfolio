@@ -29,7 +29,7 @@ const About = () => {
               <br />
               Kindly go through it.&nbsp;&nbsp;
               <a
-                className="text-xl text-cyan-500 text-decoration-line: underline"
+                className="text-xl  hover:text-cyan-500 text-decoration-line: underline"
                 href="https://github.com/1Vidhyasagar"
                 target="_blank"
                 rel="noreferrer"

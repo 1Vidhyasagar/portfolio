@@ -1,5 +1,5 @@
 import React from 'react'
-import MyPhoto from "../downloads/mypic.jpeg";
+import MyPhoto from "../downloads/mypic.png";
 
 import { MdOutlineKeyboardArrowRight   } from "react-icons/md";
 
@@ -30,18 +30,17 @@ const Home = () => {
               "
               >
                 Resume
-                
                 <MdOutlineKeyboardArrowRight size={40} className="ml-2" />
               </button>
             </a>
           </div>
         </div>
-        <div>
+        <div className="w-7/12  h-screen  overflow-hidden">
           <img
             src={MyPhoto}
             alt="Vidhyasagar profile"
-            className="mb-20  lg:mt-20 rounded-tl-3xl rounded-br-3xl w-7/12  mx-auto
-            shadow-2xl shadow-gray-800"
+            className="h-screen   lg:mt-20 mx-auto
+          "
           />
         </div>
       </div>

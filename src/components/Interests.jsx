@@ -17,7 +17,7 @@ const Interests = () => {
               href="https://www.guvi.in/verify-certificate?id=3Yl42qi27wc6160d6A&course=javascript_en"
               target="_blank"
               rel="noreferrer"
-              className="text-decoration-line: underline"
+              className="text-decoration-line: underline hover:text-black      "
             >
               Certificate link
             </a>
