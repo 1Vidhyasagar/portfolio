@@ -53,8 +53,8 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <footer class="border-t border-t-gray-500 text-xs w-full bg text-black pt-2  ">
-        <div class="container mx-auto flex justify-between">
+      <footer className="border-t border-t-gray-500 text-xs w-full bg text-black pt-2  ">
+        <div className="container mx-auto flex justify-between">
           <p>copyright &copy; 2023 | Vidhyasagar Myana. All rights reserved</p>
           <p>India</p>
         </div>
