@@ -36,7 +36,7 @@ const Interests = () => {
           </ul>
         </div>
       </div>
-      
+     
     </div>
   );
 }
