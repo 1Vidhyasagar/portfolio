@@ -36,11 +36,7 @@ const Interests = () => {
           </ul>
         </div>
       </div>
-      <div className="bg-video-container h-screen">
-        <video autoPlay loop muted className="object-cover">
-          <source src="../downloads/video.mp4" type="video/mp4" />
-        </video>
-      </div>
+    
     </div>
   );
 }
