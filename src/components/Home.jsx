@@ -1,5 +1,5 @@
 import React from 'react'
-import MyPhoto from "../downloads/mypic2.png";
+import MyPhoto from "../downloads/mypic5.png";
 
 import { MdOutlineKeyboardArrowRight   } from "react-icons/md";
 
@@ -14,7 +14,7 @@ const Home = () => {
           <h3 className="font-bold sm:text-2xl  text-white ">
             Hi' &nbsp; There <br />I am a full Stack Developer
           </h3>
-          <p className="pl-4 mt-2 mb-4 font-medium  text-gray-400 py-4 max-w-md">
+          <p className="pl-4 mt-2 mb-4 font-medium  text-gray-300 py-4 max-w-md">
             Enthusiastic and adaptive in nature to work with MERN technology for
             developing web applications.
           </p>
@@ -39,7 +39,7 @@ const Home = () => {
           <img
             src={MyPhoto}
             alt="Vidhyasagar profile"
-            className="w-3/6 mix-blend-overlay mt-16 lg:mt-24 lg: mx-auto
+            className="mix-blend-overlay h-full lg:mt-24 lg: mx-auto
           "
           />
         </div>
