@@ -35,7 +35,7 @@ const NavBar = () => {
     
      
   return (
-    <div className=" flex justify-evenly items-center w-full h-14  text-sm bg-black bg-opacity-60 backdrop-filter backdrop-blur-lg fixed">
+    <div className=" flex justify-evenly items-center w-full h-14  text-sm bg-black bg-opacity-70 backdrop-filter backdrop-blur-lg fixed">
       <div>
         <img
           className=" max-w-full max-h-full "

@@ -39,7 +39,7 @@ const Home = () => {
           <img
             src={MyPhoto}
             alt="Vidhyasagar profile"
-            className="mix-blend-overlay h-full lg:mt-24 lg: mx-auto
+            className="lg:mix-blend-overlay h-full lg:mt-24 lg: mx-auto
           "
           />
         </div>
