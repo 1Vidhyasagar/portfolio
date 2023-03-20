@@ -74,7 +74,7 @@ const tech=[
   return (
     <div
       name="skills"
-      className=" text-center sm:text-left bg-gradient-to-b from-gray-700 to-black w-full h-screen"
+      className=" text-center sm:text-left bg-gradient-to-br from-gray-700 to-black w-full h-screen"
     >
       <div className="max-w-screen-lg px-4 pl-8 pt-10 mx-auto flex flex-col justify-center w-full h-full text-white">
         <div>
