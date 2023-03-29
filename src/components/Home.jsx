@@ -1,18 +1,23 @@
 import React from 'react'
 import MyPhoto from "../downloads/mypic5.png";
 
+
+
 import { MdOutlineKeyboardArrowRight   } from "react-icons/md";
+
+
+
 
 const Home = () => {
   return (
     <div
       name="home"
-      className="place-content-center h-screen w-full px-5  bg-gradient-to-bl from-gray-100  via-gray-900 to-black text-white text-left"
+      className=" place-content-center h-screen w-full px-5 bg-gray-800 md:bg-gradient-to-bl from-gray-300  via-gray-900 to-black text-white text-left"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col  items-center justify-center h-full px-4 pl-8  md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col  items-center justify-center h-full px-4 pl-8  md:flex-row overflow-hidden">
         <div className="flex mt-4 flex-col justify-center h-full">
-          <h3 className="font-bold sm:text-2xl  text-white ">
-            Hi' &nbsp; There <br />I am a full Stack Developer
+          <h3 className=" lg:mt-0 md:mt-0 font-bold  sm:text-2xl   text-white ">
+            Hi' &nbsp; There <br />I am a&nbsp; full Stack Developer
           </h3>
           <p className="pl-4 mt-2 mb-4 font-medium  text-gray-300 py-4 max-w-md">
             Enthusiastic and adaptive in nature to work with MERN technology for
@@ -26,21 +31,24 @@ const Home = () => {
               rel="noreferrer"
             >
               <button
-                className="  text-white w-6/12 px-3 py-1 my-2 flex items-center rounded-md bg-gradient-to-l from-cyan-500  to-gray-900 cursor-pointer 
+                className="bg-cyan-500 shadow-2xl shadow-cyan-900  text-white w-5/12 px-3 py-1 my-2 flex items-center rounded-md bg-gradient-to-l from-cyan-500  to-gray-900 cursor-pointer 
               "
               >
-                Resume
-                <MdOutlineKeyboardArrowRight size={40} className="ml-2" />
+                <span className="hover:translate-x-6 duration-700 lg:ml-7">
+                  Resume
+                </span>
+
+                <MdOutlineKeyboardArrowRight size={40} className="ml-7" />
               </button>
             </a>
           </div>
         </div>
-        <div className="w-7/12 h-screen  overflow-hidden">
+        <div className=" shadow-2xl shadow-cyan-900 mx-auto bottom-0 md:h-4/6  lg:mt-48   w-5/12 rounded-full md:bg-gradient-to-bl to-cyan-700  via-gray-800 from-gray-900">
           <img
             src={MyPhoto}
-            alt="Vidhyasagar profile"
-            className="lg:mix-blend-overlay h-full lg:mt-24 lg: mx-auto
-          "
+            alt="my profile"
+            className="  lg:-mt-20 -mt-5   right-0 lg:left-0 mx-auto md:h-6/6 md:w-64      
+        "
           />
         </div>
       </div>
