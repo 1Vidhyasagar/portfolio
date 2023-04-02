@@ -43,11 +43,11 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="lg:rounded-full bottom-0 shadow-xl shadow-cyan-500 w-7/12 md:h-5/6 md:w-full bg-gradient-to-bl to-cyan-700  via-gray-800 from-gray-900 md:mt-auto lg:mb-5 lg:h-4/6 lg:w-3/6 xl:h-3/6 xl:w-3/6 lg:ml-auto">
+        <div className="rounded-full bottom-0 shadow-xl shadow-cyan-500 w-7/12 md:h-5/6 md:w-full bg-gradient-to-bl to-cyan-700  via-gray-800 from-gray-900 md:mt-auto lg:mb-5 lg:h-4/6 lg:w-3/6 xl:h-4/6 xl:w-3/6 lg:ml-auto">
           <img
             src={MyPhoto}
             alt="my profile"
-            className=" md:h-full  md:mt-52 md:ml-20 lg:h-screen lg:-mt-16    right-0"
+            className=" md:h-full md:mt-52 md:ml-20 lg:h-screen lg:-mt-16   right-0"
           />
         </div>
       </div>
