@@ -66,17 +66,20 @@ const Projects = () => {
       className="p-4 pt-16 text-center sm:text-left bg- bg-gray-300 h-full w-full "
     >
       <div className=" max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full  text-black px-4 pl-8">
-        <div className="flex  align-center  ">
+        <div className="flex  align-center wow animate__animated animate__fadeInLeft animate__delay-0.5s ">
           <p className="text-2xl font-bold">Projects </p>
-          <p className="text-sm mt-2">
-            &nbsp;&nbsp;&nbsp;Explore my projects gallery, where a click is all
-            it takes to discover!
+          <p className="text-sm font-bold mx-auto mt-2">
+            Explore my projects gallery, where a click is all it takes to
+            discover!
           </p>
         </div>
 
-        <div className="lg: grid grid-cols-2 sm:grid-cols-3  gap-4 text-center sm:px-0 ">
+        <div className=" lg: grid grid-cols-2 sm:grid-cols-3  gap-4 text-center sm:px-0 ">
           {projects.map(({ id, title, abc, src, href1, href2 }) => (
-            <div key={id} className=" bg-gray-800 rounded-lg">
+            <div
+              key={id}
+              className="wow animate__animated animate__zoomIn animate__delay-1s bg-gray-800 rounded-lg"
+            >
               <p className="py-1 text-sky-400  text-sm  text-center w-full h-auto ">
                 Project : {title}
               </p>
@@ -86,7 +89,11 @@ const Projects = () => {
                 </p>
               </div>
 
-              <img src={src} alt="" className=" w-10/12 h-24  mx-auto" />
+              <img
+                src={src}
+                alt=""
+                className=" w-10/12 h-24  mx-auto"
+              />
               <div>
                 <a href={href1} target="_blank" rel="noreferrer">
                   <button className="text-white text-sm w-10/12 h-5 mt-1 items-center justify-center rounded-md mx-auto  bg-black hover:bg-cyan-700 cursor-pointer">

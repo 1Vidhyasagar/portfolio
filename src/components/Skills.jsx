@@ -19,7 +19,7 @@ const tech=[
         id:1,
         src:html, 
         title:'HTML',
-        style:'shadow-orange-600'
+        style:'shadow-orange-500'
     },
     {
         id:2,
@@ -49,13 +49,13 @@ const tech=[
         id:6,
         src:mongodb,
         title:'MongoDB',
-        style:'shadow-green-800'
+        style:'shadow-green-500'
     },
     {
         id:7,
         src:mysql,
         title:'MySQL',
-        style:'shadow-yellow-700'
+        style:'shadow-yellow-500'
     },
     {
         id:8,
@@ -74,10 +74,10 @@ const tech=[
   return (
     <div
       name="skills"
-      className=" text-center sm:text-left bg-gradient-to-br from-gray-700 to-black w-full h-screen"
+      className=" text-center sm:text-left bg-gradient-to-l from-gray-600 via-gray-800 to-black w-full h-screen"
     >
       <div className="max-w-screen-lg px-4 pl-8 pt-10 mx-auto flex flex-col justify-center w-full h-full text-white">
-        <div>
+        <div className="wow animate__animated animate__fadeInLeft animate__delay-0.5s">
           <p className="text-2xl  font-bold inline">Skills</p>
           <p className="py-10  pb-2 pt-2 font-medium text-gray-300">
             <FontAwesomeIcon icon={faTools} style={{ color: "#06b6d4" }} />
@@ -85,7 +85,7 @@ const tech=[
           </p>
         </div>
 
-        <div className="w-full lg:pl-8 grid grid-cols-2 sm:grid-cols-3 gap-6 text-center sm:px-0">
+        <div className="wow animate__animated animate__zoomIn animate__delay-0.7s w-full lg:pl-8 grid grid-cols-2 sm:grid-cols-3 gap-6 text-center sm:px-0">
           {tech.map(({ id, src, title, style }) => (
             <div
               key={id}

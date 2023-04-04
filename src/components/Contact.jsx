@@ -8,8 +8,8 @@ const Contact = () => {
       name="Contact"
       className=" text-center sm:text-left w-full h-screen bg-gray-100 p-10"
     >
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pl-4 ">
+      <div className=" flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+        <div className="wow animate__animated animate__fadeInLeft animate__delay-0.5s pl-4 ">
           <p className="text-2xl text-black font-bold mt-16">Contact</p>
           <a className="text-black pl-4" href="tel:+919822074397">
             Call me at &nbsp;<span>&#9990;</span>
@@ -21,7 +21,7 @@ const Contact = () => {
           </p>
         </div>
         <div
-          className="flex justify-center items-center"
+          className="wow animate__animated animate__zoomIn animate__delay-1s flex justify-center items-center"
           style={{ height: "300px" }}
         >
           <form
@@ -54,7 +54,7 @@ const Contact = () => {
         </div>
       </div>
       <footer className="border-t border-t-gray-500 text-xs w-full bg text-black pt-2  ">
-        <div className="container mx-auto flex justify-between">
+        <div className="wow animate__animated animate__fadeInRight animate__delay-0.5s container mx-auto flex justify-between">
           <p>copyright &copy; 2023 | Vidhyasagar Myana. All rights reserved</p>
           <p>India</p>
         </div>
