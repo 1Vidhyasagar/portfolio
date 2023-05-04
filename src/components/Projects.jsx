@@ -14,12 +14,13 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      abc: "A user-friendly website showcasing a comprehensive list of breweries from API with information.",
-      title: "Brewery List",
-      src: brewery,
-      href1: "https://breweries-shop.netlify.app/",
-      href2: "https://github.com/1Vidhyasagar/shopbeer",
+      abc: "A website showing a comprehensive list of movies with detailed information, ratings and reviews.",
+      title: "Box office",
+      src: movies,
+      href1: "https://movies-1list.netlify.app/",
+      href2: "https://github.com/1Vidhyasagar/Day_25.-2-",
     },
+
     {
       id: 2,
       abc: "A website displaying Covid-19 case reports of various countries, created to provide real-time information.",
@@ -30,19 +31,19 @@ const Projects = () => {
     },
     {
       id: 3,
-      abc: "Tic-Tac-Toe game, play against computer on a static web, easy-to-use, designed for fun & enjoyment!",
-      title: "Fun game",
+      abc: "A website featuring four mini projects namely Fruits transfer, Nested Info, Infinite scroll, Hit game, Square splits",
+      title: "Collection",
       src: game,
-      href1: "https://gametictactoe1.netlify.app/",
-      href2: "https://github.com/1Vidhyasagar/game",
+      href1: "https://amusing.netlify.app/",
+      href2: "https://github.com/1Vidhyasagar/Amusing",
     },
     {
       id: 4,
-      abc: "A website showing a comprehensive list of movies with detailed information, ratings and reviews.",
-      title: "Box office",
-      src: movies,
-      href1: "https://movies-1list.netlify.app/",
-      href2: "https://github.com/1Vidhyasagar/Day_25.-2-",
+      abc: "A user-friendly website showcasing a comprehensive list of breweries from API with information.",
+      title: "Brewery List",
+      src: brewery,
+      href1: "https://breweries-shop.netlify.app/",
+      href2: "https://github.com/1Vidhyasagar/shopbeer",
     },
   ];
   const sliderRef = useRef(null);
