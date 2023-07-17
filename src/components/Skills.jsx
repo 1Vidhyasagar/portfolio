@@ -77,15 +77,16 @@ const tech=[
       className=" text-center sm:text-left bg-gradient-to-l from-gray-600 via-gray-800 to-black w-full h-screen"
     >
       <div className="max-w-screen-lg px-4 pl-8 pt-10 mx-auto flex flex-col justify-center w-full h-full text-white">
+        <p className="text-2xl font-bold inline">Skills</p>
+
         <div className="wow animate__animated animate__fadeInLeft animate__delay-0.7s">
-          <p className="text-2xl  font-bold inline">Skills</p>
           <p className="py-10  pb-2 pt-2 font-medium text-gray-300">
             <FontAwesomeIcon icon={faTools} style={{ color: "#06b6d4" }} />
             &nbsp; These are my skills I am focusing on
           </p>
         </div>
 
-        <div className="wow animate__animated animate__zoomIn animate__delay-1s w-full lg:pl-8 grid grid-cols-2 sm:grid-cols-3 gap-6 text-center sm:px-0">
+        <div className=" w-full lg:pl-8 grid grid-cols-2 sm:grid-cols-3 gap-6 text-center sm:px-0">
           {tech.map(({ id, src, title, style }) => (
             <div
               key={id}

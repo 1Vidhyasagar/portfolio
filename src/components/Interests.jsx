@@ -4,7 +4,7 @@ const Interests = () => {
   return (
     <div
       name="Interests"
-      className="bg-cover text-center sm:text-left w-full h-screen bg-[url('./downloads/bgv.gif')] text-white"
+      className="bg-cover text-center sm:text-left w-full h-screen bg-[url('./downloads/bgv.gif')] text-white "
     >
       <div className="wow animate__animated animate__zoomIn animate__delay-0.7s max-w-screen-lg p-4 pl-8 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-5">

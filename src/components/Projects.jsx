@@ -64,12 +64,13 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="p-4 pt-16 text-center sm:text-left bg- bg-gray-300 h-full w-full "
+      className="p-4 pt-14 text-center sm:text-left bg- bg-gray-300 h-full w-full "
     >
       <div className=" max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full  text-black px-4 pl-8">
-        <div className="flex  align-center wow animate__animated animate__fadeInLeft animate__delay-0.7s ">
-          <p className="text-2xl font-bold">Projects </p>
-          <p className="text-sm font-bold mx-auto mt-2">
+        <p className="text-2xl font-bold">Projects </p>
+
+        <div className="wow animate__animated animate__fadeInLeft animate__delay-0.5s flex align-center ">
+          <p className="text-sm pb-2 font-bold mx-auto">
             Explore my projects gallery, where a click is all it takes to
             discover!
           </p>
