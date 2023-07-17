@@ -23,13 +23,13 @@ const Contact = () => {
           </p>
         </div>
         <div
-          className="flex mx-64  justify-center  items-center  bg-gray-300 rounded-lg"
+          className="flex md:mx-64  justify-center  items-center  bg-gray-300 rounded-lg"
           style={{ height: "300px" }}
         >
           <form
             action="https://getform.io/f/5375b9de-f060-4863-8ebd-795c95998635"
             method="post"
-            className=" flex flex-col w-full md:w-4/6  h-3/4"
+            className=" flex flex-col  md:w-4/6  h-3/4"
           >
             <input
               type="text"
