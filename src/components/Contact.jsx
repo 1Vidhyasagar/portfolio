@@ -10,20 +10,21 @@ const Contact = () => {
       <div className=" flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="  wow animate__animated animate__fadeInLeft animate__delay-0.7s pl-4">
           <p className="text-2xl text-black font-bold mt-2">Contact</p>
-          
+
           <p>
-            <a className="text-sm  text-black pl-4    
-             " href="tel:+919822074397">
+            <a
+              className="text-sm  text-black pl-4    
+             "
+              href="tel:+919822074397"
+            >
               Call me at &nbsp;<span>&#9990;</span>
-              &nbsp;+91 9822074397  or
+              &nbsp;+91 9822074397 or
             </a>
           </p>
-          <p className="text-sm ml-4">
-            Kindly fill below and contact me
-          </p>
+          <p className="text-sm ml-4">Kindly fill below and contact me</p>
         </div>
         <div
-          className="flex md:mx-64  justify-center  items-center  bg-gray-300 rounded-lg"
+          className="flex md:mx-64  justify-center  items-center  bg-gray-400 rounded-lg"
           style={{ height: "300px" }}
         >
           <form
@@ -35,19 +36,19 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="  text-sm bg-gray-100  rounded-sm text-center align:center  focus:outline-none mb-3 h-16"
+              className="  text-sm bg-gray-100  rounded-sm text-center align:center text-gray-900 focus:outline-none mb-3 h-16"
             />
             <input
               type="text"
               name="email"
               placeholder="Enter your email"
-              className=" text-sm bg-gray-100 rounded-sm text-center align:center text-gray-700 focus:outline-none mb-3 h-16 "
+              className=" text-sm bg-gray-100 rounded-sm text-center align:center text-gray-900 focus:outline-none mb-3 h-16 "
             />
             <textarea
               name="message"
               placeholder="Enter your message"
               rows="7"
-              className="mb-3   p-2 text-sm bg-gray-100  rounded-sm text-center align:center text-gray-700 focus:outline-none"
+              className="mb-3   p-2 text-sm bg-gray-100  rounded-sm text-center align:center text-gray-900 focus:outline-none"
             ></textarea>
             <button className="text-white bg-cyan-500 px-4  my-2 mx-auto flex items-center rounded-md hover:scale-110 py-1 hover:bg-sky-800 duration-300">
               Submit

@@ -76,11 +76,11 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className=" lg: grid grid-cols-2 sm:grid-cols-3  gap-4 text-center sm:px-0 ">
+        <div className="  lg: grid grid-cols-2 sm:grid-cols-3   gap-4 text-center sm:px-0 ">
           {projects.map(({ id, title, abc, src, href1, href2 }) => (
             <div
               key={id}
-              className="wow animate__animated animate__zoomIn animate__delay-1s bg-gray-800 rounded-lg"
+              className="   hover:bg-gray-900  bg-gray-800  rounded-lg"
             >
               <div>
                 <p className="py-1 text-sky-400  text-sm  text-center w-full h-auto ">
@@ -103,12 +103,12 @@ const Projects = () => {
 
                 <div className="wow animate__animated animate__zoomIn animate__delay-2s pb-1 px-2">
                   <a href={href2} target="_blank" rel="noreferrer">
-                    <button className=" text-white text-xs w-5/12 h-5 items-center justify-center rounded-md  bg-black hover:scale-125   hover:bg-cyan-700 duration-500 cursor-pointer">
+                    <button className=" text-white text-xs w-5/12 h-5 items-center justify-center rounded-md  bg-black   hover:bg-cyan-700 duration-500 cursor-pointer">
                       FRONTEND
                     </button>
                   </a>
                   <a href={href2} target="_blank" rel="noreferrer">
-                    <button className="text-white text-xs w-5/12 h-5 items-center justify-center ml-3 rounded-md  bg-black hover:scale-125  hover:bg-cyan-700 duration-500 cursor-pointer">
+                    <button className="text-white text-xs w-5/12 h-5 items-center justify-center ml-3 rounded-md  bg-black   hover:bg-cyan-700 duration-500 cursor-pointer">
                       BACKEND
                     </button>
                   </a>
