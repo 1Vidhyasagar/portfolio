@@ -1,19 +1,26 @@
-import React from 'react'
-
+import React from "react";
+import { useTheme } from "../ThemeContext";
 
 const Contact = () => {
+  const { isDarkMode } = useTheme();
+
   return (
     <div
       name="Contact"
-      className=" text-center sm:text-left w-full h-screen bg-gray-100 p-10"
+      className={`text-center sm:text-left w-full h-screen bg-gray-100 p-10
+      ${
+        isDarkMode
+          ? "bg-gray-100 text-gray-800"
+          : " bg-gradient-to-l from-gray-500 via-gray-600 to-gray-900 text-gray-200"
+      }`}
     >
       <div className=" flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="  wow animate__animated animate__fadeInLeft animate__delay-0.7s pl-4">
-          <p className="text-2xl text-black font-bold mt-2">Contact</p>
+          <p className="text-2xl  font-bold mt-2">Contact</p>
 
           <p>
             <a
-              className="text-sm  text-black pl-4    
+              className="text-sm font-medium  pl-4    
              "
               href="tel:+919822074397"
             >
@@ -21,10 +28,12 @@ const Contact = () => {
               &nbsp;+91 9822074397 or
             </a>
           </p>
-          <p className="text-sm ml-4">Kindly fill below and contact me</p>
+          <p className="text-sm ml-4 font-medium">
+            Kindly fill below and contact me
+          </p>
         </div>
         <div
-          className="flex md:mx-64  justify-center  items-center  bg-gray-400 rounded-lg"
+          className="flex md:mx-64  justify-center  items-center  bg-gray-500 rounded-2xl "
           style={{ height: "300px" }}
         >
           <form
@@ -50,20 +59,20 @@ const Contact = () => {
               rows="7"
               className="mb-3   p-2 text-sm bg-gray-100  rounded-sm text-center align:center text-gray-900 focus:outline-none"
             ></textarea>
-            <button className="text-white bg-cyan-500 px-4  my-2 mx-auto flex items-center rounded-md hover:scale-110 py-1 hover:bg-sky-800 duration-300">
+            <button className="text-white bg-slate-800 px-4  my-2 mx-auto flex items-center rounded-md hover:scale-110 py-1 hover:bg-slate-900 duration-300">
               Submit
             </button>
           </form>
         </div>
       </div>
-      <footer className="border-t border-t-gray-500 text-xs w-full bg text-black pt-2  ">
-        <div className="wow animate__animated animate__fadeInRight animate__delay-0.7s container mx-auto flex justify-between">
+      <footer className="border-t border-t-gray-500 text-xs w-full bg  pt-2  ">
+        <div className="wow animate__animated animate__fadeInRight animate__delay-0.2s container mx-auto flex justify-between font-medium">
           <p>copyright &copy; 2023 | Vidhyasagar Myana. All rights reserved</p>
           <p>India</p>
         </div>
       </footer>
     </div>
   );
-}
+};
 
-export default Contact
+export default Contact;

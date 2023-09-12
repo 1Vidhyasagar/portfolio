@@ -6,10 +6,10 @@ import movies from "../downloads/projects/movies.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useEffect, useRef } from "react";
-
-
+import { useTheme } from "../ThemeContext";
 
 const Projects = () => {
+  const { isDarkMode } = useTheme();
 
   const projects = [
     {
@@ -64,9 +64,12 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="p-4 pt-14 text-center sm:text-left bg- bg-gray-300 h-full w-full "
+      className={`p-4 pt-14 text-center sm:text-left bg- bg-gray-300 h-full w-full 
+      ${
+        isDarkMode ? "bg-gray-100 text-gray-800" : " bg-gray-500 text-gray-200"
+      }`}
     >
-      <div className=" max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full  text-black px-4 pl-8">
+      <div className=" max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full   px-4 pl-8">
         <p className="text-2xl font-bold">Projects </p>
 
         <div className="wow animate__animated animate__fadeInLeft animate__delay-0.5s flex align-center ">
@@ -93,7 +96,7 @@ const Projects = () => {
                 </div>
 
                 <img src={src} alt="" className="  w-10/12 h-24  mx-auto" />
-                <div className="wow animate__animated animate__zoomIn animate__delay-2s">
+                <div>
                   <a href={href1} target="_blank" rel="noreferrer">
                     <button className="text-white text-sm w-10/12 h-5 mt-1 items-center justify-center rounded-md mx-auto  bg-black hover:bg-cyan-700 cursor-pointer">
                       LIVE
@@ -101,7 +104,7 @@ const Projects = () => {
                   </a>
                 </div>
 
-                <div className="wow animate__animated animate__zoomIn animate__delay-2s pb-1 px-2">
+                <div>
                   <a href={href2} target="_blank" rel="noreferrer">
                     <button className=" text-white text-xs w-5/12 h-5 items-center justify-center rounded-md  bg-black   hover:bg-cyan-700 duration-500 cursor-pointer">
                       FRONTEND
