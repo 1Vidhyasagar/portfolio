@@ -41,7 +41,7 @@ const Home = () => {
               rel="noreferrer"
               class="inline-flex items-center"
             >
-              <button className="bg-cyan-500 shadow-2xl shadow-cyan-900 wow animate__animated animate__fadeInRightBig animate__delay-0.5s text-white  px-3 py-auto md:mt-7 flex items-center rounded-md bg-gradient-to-l from-cyan-500 to-gray-900 cursor-pointer ">
+              <button className="bg-cyan-500 shadow-2xl shadow-cyan-900 wow animate__animated animate__fadeInRightBig animate__delay-0.5s text-white  px-3 py-auto md:mt-7 mt-3 flex items-center rounded-md bg-gradient-to-l from-cyan-500 to-gray-900 cursor-pointer ">
                 <span className="hover:translate-x-6 duration-700 lg:ml-7">
                   Resume
                 </span>

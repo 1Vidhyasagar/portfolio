@@ -16,7 +16,7 @@ const Contact = () => {
     >
       <div className=" flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="  wow animate__animated animate__fadeInLeft animate__delay-0.7s pl-4">
-          <p className="text-2xl  font-bold mt-2">Contact</p>
+          <p className="text-2xl  font-bold mt-2 mb-3">Contact</p>
 
           <p>
             <a
@@ -66,7 +66,7 @@ const Contact = () => {
         </div>
       </div>
       <footer className="border-t border-t-gray-500 text-xs w-full bg  pt-2  ">
-        <div className="wow animate__animated animate__fadeInRight animate__delay-0.2s container mx-auto flex justify-between font-medium">
+        <div className=" container mx-auto flex justify-between font-medium">
           <p>copyright &copy; 2023 | Vidhyasagar Myana. All rights reserved</p>
           <p>India</p>
         </div>

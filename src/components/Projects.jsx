@@ -69,7 +69,7 @@ const Projects = () => {
         isDarkMode ? "bg-gray-100 text-gray-800" : " bg-gray-500 text-gray-200"
       }`}
     >
-      <div className=" max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full   px-4 pl-8">
+      <div className=" max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full mb-3  px-4 pl-8">
         <p className="text-2xl font-bold">Projects </p>
 
         <div className="wow animate__animated animate__fadeInLeft animate__delay-0.5s flex align-center ">
