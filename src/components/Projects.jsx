@@ -17,8 +17,8 @@ const Projects = () => {
       abc: "A website showing a comprehensive list of movies with detailed information, ratings and reviews.",
       title: "Box office",
       src: movies,
-      href1: "https://movies-1list.netlify.app/",
-      href2: "https://github.com/1Vidhyasagar/Day_25.-2-",
+      href1: "https://my-box-office.netlify.app/",
+      href2: "https://github.com/1Vidhyasagar/box-office",
     },
 
     {
