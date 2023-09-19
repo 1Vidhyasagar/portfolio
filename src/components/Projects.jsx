@@ -1,5 +1,5 @@
 import React from "react";
-import brewery from "../downloads/projects/brewery.png";
+import foodex from "../downloads/projects/foodex.png";
 import covid from "../downloads/projects/covid.png";
 import game from "../downloads/projects/game.png";
 import movies from "../downloads/projects/movies.png";
@@ -23,11 +23,11 @@ const Projects = () => {
 
     {
       id: 2,
-      abc: "A website displaying Covid-19 case reports of various countries, created to provide real-time information.",
-      title: "Covid Tracker",
-      src: covid,
-      href1: "https://covidtracker-world.netlify.app/",
-      href2: "https://github.com/1Vidhyasagar/Day_25.-3-",
+      abc: "A website displaying mealsDB information such as various food with their ingredients and much more to explore",
+      title: "Foodex",
+      src: foodex,
+      href1: "https://foodex-my.netlify.app/",
+      href2: "https://github.com/1Vidhyasagar/foodex",
     },
     {
       id: 3,
@@ -39,11 +39,11 @@ const Projects = () => {
     },
     {
       id: 4,
-      abc: "A user-friendly website showcasing a comprehensive list of breweries from API with information.",
-      title: "Brewery List",
-      src: brewery,
-      href1: "https://breweries-shop.netlify.app/",
-      href2: "https://github.com/1Vidhyasagar/shopbeer",
+      abc: "A website displaying Covid-19 case reports of various countries, created to provide real-time information.",
+      title: "Covid Tracker",
+      src: covid,
+      href1: "https://covidtracker-world.netlify.app/",
+      href2: "https://github.com/1Vidhyasagar/Day_25.-3-",
     },
   ];
   const sliderRef = useRef(null);
