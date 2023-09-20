@@ -1,6 +1,6 @@
 import React from "react";
 import foodex from "../downloads/projects/foodex.png";
-import covid from "../downloads/projects/covid.png";
+import booklib from "../downloads/projects/booklib.png";
 import game from "../downloads/projects/game.png";
 import movies from "../downloads/projects/movies.png";
 import "slick-carousel/slick/slick.css";
@@ -14,11 +14,12 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      abc: "A website showing a comprehensive list of movies with detailed information, ratings and reviews.",
-      title: "Box office",
-      src: movies,
-      href1: "https://my-box-office.netlify.app/",
-      href2: "https://github.com/1Vidhyasagar/box-office",
+      abc: "A website displaying list of books in which we can create, delete, update a particular book with cool UI",
+      title: "BookLib",
+      src: booklib,
+      href1: "https://booklib-vidhyasagar.netlify.app/",
+      href2: "https://github.com/1Vidhyasagar/book-lib-frontend",
+      href3: "https://github.com/1Vidhyasagar/book-lib-backend",
     },
 
     {
@@ -28,22 +29,25 @@ const Projects = () => {
       src: foodex,
       href1: "https://foodex-my.netlify.app/",
       href2: "https://github.com/1Vidhyasagar/foodex",
+      href3: "https://github.com/1Vidhyasagar/foodex",
     },
     {
       id: 3,
+      abc: "A website showing a comprehensive list of movies with detailed information, ratings and reviews.",
+      title: "Box office",
+      src: movies,
+      href1: "https://my-box-office.netlify.app/",
+      href2: "https://github.com/1Vidhyasagar/box-office",
+      href3: "https://github.com/1Vidhyasagar/box-office",
+    },
+    {
+      id: 4,
       abc: "A website featuring four mini projects namely Fruits transfer, Nested Info, Infinite scroll, Hit game, Square splits",
       title: "Collection",
       src: game,
       href1: "https://amusing.netlify.app/",
       href2: "https://github.com/1Vidhyasagar/Amusing",
-    },
-    {
-      id: 4,
-      abc: "A website displaying Covid-19 case reports of various countries, created to provide real-time information.",
-      title: "Covid Tracker",
-      src: covid,
-      href1: "https://covidtracker-world.netlify.app/",
-      href2: "https://github.com/1Vidhyasagar/Day_25.-3-",
+      href3: "https://github.com/1Vidhyasagar/Amusing",
     },
   ];
   const sliderRef = useRef(null);
@@ -80,7 +84,7 @@ const Projects = () => {
         </div>
 
         <div className="  lg: grid grid-cols-2 sm:grid-cols-3   gap-4 text-center sm:px-0 ">
-          {projects.map(({ id, title, abc, src, href1, href2 }) => (
+          {projects.map(({ id, title, abc, src, href1, href2, href3 }) => (
             <div
               key={id}
               className="   hover:bg-gray-900  bg-gray-800  rounded-lg"
@@ -110,7 +114,7 @@ const Projects = () => {
                       FRONTEND
                     </button>
                   </a>
-                  <a href={href2} target="_blank" rel="noreferrer">
+                  <a href={href3} target="_blank" rel="noreferrer">
                     <button className="text-white text-xs w-5/12 h-5 items-center justify-center ml-3 rounded-md  bg-black   hover:bg-cyan-700 duration-500 cursor-pointer">
                       BACKEND
                     </button>
