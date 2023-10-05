@@ -61,7 +61,7 @@ const Home = () => {
           <img
             src={MyPhoto}
             alt="my profile"
-            className="md:h-full md:mt-52 md:ml-20 lg:h-screen lg:-mt-16 right-0"
+            className="md:h-full opacity-90 md:mt-52 md:ml-20 lg:h-screen lg:-mt-16 right-0"
           />
         </div>
       </div>
